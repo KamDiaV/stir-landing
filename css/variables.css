@@ -1,0 +1,11 @@
+:root {
+  --color-bg: #0b1224;
+  --color-surface: #1a2340;
+  --color-accent: #6c63ff;
+  --color-text-primary: #f4f6fb;
+  --color-text-muted: #9aa2bb;
+  --font-base: "Inter", "Segoe UI", system-ui, sans-serif;
+  --space-sm: 0.5rem;
+  --space-md: 1.5rem;
+  --space-lg: 3rem;
+}
