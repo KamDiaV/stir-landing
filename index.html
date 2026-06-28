@@ -15,34 +15,53 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    header
+    <header class="header">
+      <div class="container header__container">
+        <a href="./" class="logo">
+          <img src="./images/logo/stir.svg" alt="Stir">
+        </a>
+        <a href="#" class="header__link">
+          Join our team
+        </a>
+      </div>
+    </header>
   
-    main
+    <main>
+      <section class="hero">
+        <div class="container hero__container">
+          <h1 class="hero__title">
+            Where creators run their business.
+          </h1>
   
-      hero
+          <p class="hero__text">
+            Meet Stir. The financial studio for collaborating, splitting revenue, 
+            money management and metrics—all in one place
+          </p>
   
-      brands
+          <form action="#" class="hero__form">
+            <label class="visually-hidden" for="email">
+              Email
+            </label>
   
-      mission
+            <input
+              class="hero__input"
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+            >
   
-      features
+            <button class="hero__button" type="submit">
+              Get started
+            </button>
+          </form>
+        </div>
+      </section>
   
-      payments
+    </main>
   
-      split
+    <footer class="footer"></footer>
   
-      collectives
-  
-      profile
-  
-      priorities
-  
-      business
-  
-      creators
-  
-    footer
-    
-    <script src="/js/main.js"></script>
+    <script src="./js/main.js" defer></script>
   </body>
 </html>
