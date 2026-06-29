@@ -3,6 +3,7 @@
   --color-white: #FFFFFF;
   --color-black: #191919;
   --color-accent: #7352FF;
+  --color-footer-text: rgba(255, 255, 255, 0.5);
 
   /* Fonts */
   --font-family-base: "Roboto", sans-serif;

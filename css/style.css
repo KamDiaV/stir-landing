@@ -211,9 +211,112 @@
   width: 100%;
 }
 
+.footer {
+  padding: 80px 0;
+  background-color: var(--color-accent);
+  color: var(--color-white);
+}
+
+.footer__container {
+  min-height: 262px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__top,
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__title {
+  max-width: 200px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: var(--font-weight-regular);
+  line-height: 1.5;
+}
+
+.footer__form {
+  display: flex;
+  width: 100%;
+  width: 360px;
+  border: 1px solid var(--color-white);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.footer__input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 21px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 13px;
+  color: var(--color-white);
+  line-height: 2.2;
+}
+
+.footer__input::placeholder {
+  color: var(--color-white);
+}
+
+.footer__button {
+  padding: 10px 28px;
+  border: none;
+  background-color: transparent;
+  font-size: 13px;
+  color: var(--color-white);
+  line-height: 2.2;
+  cursor: pointer;
+}
+
+.footer__logo {
+  display: inline-flex;
+}
+
+.footer__socials,
+.footer__links {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.footer__social {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--color-footer-text);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer__social-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.footer__link {
+  color: var(--color-footer-text);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: var(--font-weight-bold);
+}
+
 .hero__input:-webkit-autofill,
 .hero__input:-webkit-autofill:hover,
-.hero__input:-webkit-autofill:focus {
+.hero__input:-webkit-autofill:focus,
+.footer__input:-webkit-autofill,
+.footer__input:-webkit-autofill:hover,
+.footer__input:-webkit-autofill:focus {
   -webkit-text-fill-color: var(--color-black);
   -webkit-box-shadow: 0 0 0px 1000px var(--color-white) inset;
   transition: background-color 9999s ease-in-out 0s;
