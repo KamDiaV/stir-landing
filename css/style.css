@@ -38,7 +38,8 @@
 }
 
 .hero {
-  padding: 126px 0 100px;
+  padding-top: 126px;
+  overflow-x: hidden;
 }
 
 .hero__container {
@@ -103,6 +104,111 @@
 
 .hero__button:hover {
   opacity: 0.8;
+}
+
+.hero__creators {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 56px;
+  padding-top: 126px;
+}
+
+.creator-card {
+  position: relative;
+  flex-shrink: 0;
+  width: 263px;
+}
+
+.creator-card__photo {
+  width: 100%;
+  height: 263px;
+  object-fit: cover;
+}
+
+.creator-card__info {
+  position: absolute;
+  z-index: 2;
+  min-width: 62px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 21px rgba(0, 0, 0, 0.1);
+}
+
+.creator-card__name {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #F7F2E4;
+  font-size: 12px;
+  font-weight: var(--font-weight-regular);
+  line-height: 1;
+}
+
+.creator-card__role {
+  font-size: 10px;
+  line-height: 1;
+}
+
+.creator-card__socials {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 4px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 21px rgba(0, 0, 0, 0.1);
+}
+
+.creator-card__social {
+  display: inline-flex;
+}
+
+.creator-card__social img {
+  width: 28px;
+  height: 28px;
+}
+
+.creator-card:nth-child(1) .creator-card__info,
+.creator-card:nth-child(2) .creator-card__info,
+.creator-card:nth-child(4) .creator-card__info,
+.creator-card:nth-child(5) .creator-card__info {
+  top: -24px;
+  left: -24px;
+}
+
+.creator-card:nth-child(1) .creator-card__socials,
+.creator-card:nth-child(2) .creator-card__socials,
+.creator-card:nth-child(4) .creator-card__socials,
+.creator-card:nth-child(5) .creator-card__socials {
+  right: -22px;
+  bottom: 55px;
+}
+
+.creator-card:nth-child(3) .creator-card__info {
+  right: -20px;
+  bottom: 50px;
+}
+
+.creator-card:nth-child(3) .creator-card__socials {
+  top: 55px;
+  left: -22px;
+}
+
+.hero__dashboard {
+  position: relative;
+  z-index: 3;
+  max-width: 1039px;
+  margin: -16px auto 0;
+  border-radius: 12px;
+  box-shadow: 0 -16px 64px rgba(43, 42, 53, 0.32);
+  overflow: hidden;
+}
+
+.hero__dashboard-image {
+  width: 100%;
 }
 
 .hero__input:-webkit-autofill,
