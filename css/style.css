@@ -38,8 +38,10 @@
 }
 
 .hero {
+  position: relative;
+  z-index: 2;
   padding-top: 126px;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 .hero__container {
@@ -201,14 +203,38 @@
   position: relative;
   z-index: 3;
   max-width: 1039px;
-  margin: -16px auto 0;
+  margin: -16px auto -70px;
   border-radius: 12px;
   box-shadow: 0 -16px 64px rgba(43, 42, 53, 0.32);
-  overflow: hidden;
 }
 
 .hero__dashboard-image {
   width: 100%;
+}
+
+.mission {
+  padding: 199px 0 247px;
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+.mission__container {
+  text-align: center;
+}
+
+.mission__eyebrow {
+  margin-bottom: 15px;
+  color: #FF573D;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.mission__title {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.3;
 }
 
 .drops {
