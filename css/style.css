@@ -338,6 +338,134 @@
   line-height: 1.3;
 }
 
+.organization {
+  padding: 100px 0 99px;
+  background-color: #F7F2E4;
+  color: var(--color-black);
+}
+
+.organization__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.organization__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 86px;
+  text-align: center;
+}
+
+.organization__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 31px;
+  padding: 10px 16px;
+  border-radius: 60px;
+  background-color: var(--color-white);
+  color: var(--color-accent);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.organization__badge-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.organization__eyebrow {
+  margin-bottom: 16px;
+  color: var(--color-accent);
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.organization__title {
+  max-width: 797px;
+  font-size: 64px;
+  font-weight: var(--font-weight-regular);
+  line-height: 1.06;
+}
+
+.organization__tabs {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 80px;
+}
+
+.organization__tab {
+  position: relative;
+  display: inline-block;
+  color: var(--color-black);
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.organization__tab::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  bottom: 15px;
+  width: calc(100% + 36px);
+  height: 3px;
+  background: #F6C627;
+  transform: translateX(-50%);
+}
+
+.organization__preview {
+  width: 100%;
+  max-width: 859px;
+  margin-bottom: 40px;
+}
+
+.organization__preview-image {
+  width: 100%;
+}
+
+.organization__integrations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 859px;
+  padding: 96px 65px;
+  border: 2px solid #BABEC3;
+  border-radius: 24px;
+}
+
+.organization__integrations-content {
+  max-width: 263px;
+}
+
+.organization__integrations-title {
+  margin-bottom: 31px;
+  font-size: 40px;
+  font-weight: var(--font-weight-regular);
+  line-height: 1.2;
+}
+
+.organization__integrations-text {
+  color: #616A7F;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.organization__services {
+  display: grid;
+  grid-template-columns: repeat(4, 40px);
+  gap: 24px;
+}
+
+.organization__services img {
+  width: 40px;
+  height: 40px;
+}
+
 .drops {
   padding: 180px 0 297px;
   background-color: var(--color-black);
