@@ -626,6 +626,132 @@
   line-height: 1.5;
 }
 
+.splits {
+  padding: 164px 0 164px;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  overflow-x: clip;
+}
+
+.splits__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 144px;
+  text-align: center;
+}
+
+.splits__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 31px;
+  padding: 10px 16px;
+  border-radius: 60px;
+  background-color: #F7F2E4;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.splits__badge-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.splits__eyebrow {
+  margin-bottom: 16px;
+  color: #F6C627;
+  font-size: 20px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.4;
+}
+
+.splits__title-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.splits__title {
+  max-width: 854px;
+  margin: 0 auto;
+  font-size: 64px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.06;
+}
+
+.splits__arrow {
+  position: absolute;
+  top: 80%;
+  width: 260px;
+  transform: translateY(-50%);
+}
+
+.splits__arrow--left {
+  left: 40px;
+}
+
+.splits__arrow--right {
+  right: 40px;
+}
+
+.splits__content {
+  display: grid;
+  grid-template-columns: 440px minmax(0, 1fr);
+  align-items: start;
+  gap: 120px;
+}
+
+.splits__text {
+  margin-bottom: 76px;
+  font-size: 24px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.5;
+}
+
+.splits__platforms-label {
+  margin-bottom: 22px;
+  color: #F6C627;
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.56px;
+}
+
+.splits__platforms-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  list-style: none;
+}
+
+.splits__platform {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 36px;
+  padding: 6px;
+  border: 1px solid #EDEDED;
+  border-radius: 20px;
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+.splits__platform img {
+  width: 24px;
+  height: 24px;
+}
+
+.splits__preview {
+  width: calc(100% + 260px);
+  overflow: hidden;
+}
+
+.splits__preview-image {
+  width: 100%;
+  height: auto;
+}
+
 .drops {
   padding: 180px 0 297px;
   background-color: var(--color-black);
