@@ -3333,3 +3333,712 @@
 
   transition: background-color 9999s ease-in-out 0s;
 }
+
+@media (max-width: 320px) {
+  /* Header */
+
+  .header {
+    padding-top: 8px;
+  }
+
+  .logo img {
+    width: 56px;
+  }
+
+  .header__link {
+    font-size: 11px;
+  }
+
+
+  /* Hero */
+
+  .hero {
+    padding-top: 48px;
+  }
+
+  .hero__title {
+    max-width: 290px;
+    margin-bottom: 16px;
+    font-size: 28px;
+  }
+
+  .hero__text {
+    max-width: 290px;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .hero__form {
+    flex-direction: row;
+    max-width: 296px;
+    border-radius: 16px;
+  }
+
+  .hero__input {
+    flex: 1;
+    min-width: 0;
+    padding: 13px 12px;
+    font-size: 10px;
+    text-align: left;
+  }
+
+  .hero__button {
+    width: auto;
+    min-width: 96px;
+    padding: 13px 12px;
+    border-radius: 15px;
+    font-size: 10px;
+  }
+
+  .hero__creators {
+    display: none;
+  }
+
+  .hero__dashboard {
+    max-width: calc(100% - 24px);
+    margin: 48px auto -24px;
+    border-radius: 6px;
+    box-shadow: 0 -8px 32px rgba(43, 42, 53, 0.24);
+  }
+
+
+  /* Community */
+
+  .community {
+    padding: 72px 0 64px;
+  }
+
+  .community__title {
+    max-width: 280px;
+    margin-bottom: 32px;
+    font-size: 24px;
+  }
+
+  .community__cards {
+    gap: 0;
+    margin-bottom: 32px;
+  }
+
+  .community-card--small {
+    display: none;
+  }
+
+  .community-card--large {
+    width: 280px;
+  }
+
+  .community__slide {
+    left: 14px;
+    bottom: 3px;
+    font-size: 8px;
+  }
+
+  .community__controls {
+    gap: 12px;
+    margin-bottom: 40px;
+  }
+
+  .community__button {
+    width: 36px;
+    height: 36px;
+  }
+
+  .community__button img {
+    width: 14px;
+    height: 14px;
+  }
+
+  .community__label {
+    margin-bottom: 20px;
+    font-size: 11px;
+  }
+
+  .community__logos {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .community__logos img {
+    height: 17px;
+    width: auto;
+  }
+
+
+  /* Mission */
+
+  .mission {
+    padding: 64px 0 80px;
+  }
+
+  .mission__eyebrow {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .mission__title {
+    max-width: 290px;
+    font-size: 24px;
+  }
+
+
+  /* Organization */
+
+  .organization {
+    padding: 40px 0;
+  }
+
+  .organization__header {
+    margin-bottom: 32px;
+  }
+
+  .organization__badge {
+    gap: 6px;
+    margin-bottom: 16px;
+    padding: 7px 10px;
+    font-size: 11px;
+  }
+
+  .organization__badge-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .organization__eyebrow {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .organization__title {
+    max-width: 290px;
+    font-size: 26px;
+  }
+
+  .organization__tabs {
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+
+  .organization__tab {
+    font-size: 15px;
+  }
+
+  .organization__tab::after {
+    bottom: 7px;
+    width: calc(100% + 16px);
+  }
+
+  .organization__preview {
+    margin-bottom: 20px;
+  }
+
+  .organization__integrations {
+    gap: 28px;
+    padding: 28px 16px;
+    border-radius: 18px;
+  }
+
+  .organization__integrations-title {
+    margin-bottom: 12px;
+    font-size: 22px;
+  }
+
+  .organization__integrations-text {
+    font-size: 13px;
+  }
+
+  .organization__services {
+    grid-template-columns: repeat(4, 28px);
+    gap: 10px;
+  }
+
+  .organization__services img {
+    width: 28px;
+    height: 28px;
+  }
+
+
+  /* Payments */
+
+  .payments {
+    padding: 64px 0;
+  }
+
+  .payments__header {
+    margin-bottom: 40px;
+  }
+
+  .payments__badge {
+    gap: 6px;
+    margin-bottom: 16px;
+    padding: 7px 10px;
+    font-size: 11px;
+  }
+
+  .payments__badge-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .payments__eyebrow {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .payments__title {
+    font-size: 26px;
+  }
+
+  .payments__features {
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+
+  .payment-card {
+    min-height: 380px;
+    padding: 20px;
+    border-radius: 14px;
+  }
+
+  .payment-card__title {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+
+  .payment-card__text {
+    max-width: 240px;
+    font-size: 10px;
+    line-height: 1.8;
+  }
+
+  .payment-card__image {
+    width: 180px;
+  }
+
+  .payment-card__image--taxes {
+    top: 155px;
+  }
+
+  .payment-card__image--notifications {
+    top: 160px;
+  }
+
+  .payments__footer {
+    gap: 32px;
+  }
+
+  .payments__cta-title {
+    margin-bottom: 14px;
+    font-size: 22px;
+  }
+
+  .payments__cta-link {
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .payments__cta-arrow {
+    width: 15px;
+    height: 15px;
+  }
+
+  .payments__coming-title {
+    margin-bottom: 12px;
+    font-size: 17px;
+  }
+
+  .payments__coming-list {
+    gap: 5px;
+    font-size: 15px;
+  }
+
+
+  /* Splits */
+
+  .splits {
+    padding: 64px 0;
+  }
+
+  .splits__header {
+    margin-bottom: 40px;
+  }
+
+  .splits__badge {
+    gap: 6px;
+    margin-bottom: 16px;
+    padding: 7px 10px;
+    font-size: 11px;
+  }
+
+  .splits__badge-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .splits__eyebrow {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .splits__title {
+    max-width: 290px;
+    font-size: 26px;
+  }
+
+  .splits__arrow {
+    display: none;
+  }
+
+  .splits__content {
+    gap: 36px;
+  }
+
+  .splits__text {
+    max-width: 290px;
+    margin-bottom: 28px;
+    font-size: 15px;
+  }
+
+  .splits__platforms-label {
+    margin-bottom: 14px;
+    font-size: 11px;
+  }
+
+  .splits__platforms-list {
+    gap: 10px;
+  }
+
+  .splits__platform {
+    min-height: 30px;
+    padding: 4px 6px;
+    font-size: 12px;
+  }
+
+  .splits__platform img {
+    width: 18px;
+    height: 18px;
+  }
+
+
+  /* Collectives */
+
+  .collectives {
+    padding-top: 64px;
+  }
+
+  .collectives__header {
+    margin-bottom: 32px;
+  }
+
+  .collectives__badge {
+    gap: 6px;
+    margin-bottom: 16px;
+    padding: 7px 10px;
+    font-size: 11px;
+  }
+
+  .collectives__badge-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .collectives__eyebrow {
+    font-size: 14px;
+  }
+
+  .collectives__title {
+    max-width: 290px;
+    margin-bottom: 24px;
+    font-size: 26px;
+  }
+
+  .collectives__status {
+    font-size: 14px;
+  }
+
+
+  /* Stories */
+
+  .stories {
+    padding: 64px 0;
+  }
+
+  .stories__title {
+    max-width: 290px;
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+
+  .stories__slider {
+    border-radius: 8px;
+  }
+
+  .story-card {
+    flex: 0 0 100%;
+    gap: 20px;
+    padding: 16px;
+    border-radius: 8px;
+  }
+
+  .story-card__number,
+  .story-card__type {
+    font-size: 12px;
+  }
+
+  .story-card__photo {
+    min-height: 260px;
+    border-radius: 14px;
+  }
+
+  .story-card__name {
+    left: 16px;
+    bottom: 14px;
+    font-size: 17px;
+  }
+
+  .story-card__badge {
+    margin-bottom: 16px;
+    padding: 6px 8px;
+    font-size: 9px;
+  }
+
+  .story-card__quote {
+    margin-bottom: 24px;
+    font-size: 15px;
+  }
+
+  .story-card__details-head,
+  .story-card__detail {
+    gap: 8px;
+    font-size: 11px;
+  }
+
+  .story-card__details-head {
+    padding-bottom: 8px;
+  }
+
+  .story-card__detail {
+    padding: 10px 0;
+  }
+
+  .story-card__channel {
+    gap: 5px;
+  }
+
+  .story-card__channel img {
+    width: 15px;
+    height: 15px;
+  }
+
+
+  /* Security */
+
+  .security {
+    min-height: auto;
+    padding: 64px 0;
+  }
+
+  .security__container {
+    min-height: auto;
+    justify-content: center;
+    margin-inline: auto;
+  }
+
+  .security__pattern {
+    display: none;
+  }
+
+  .security__content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .security__eyebrow {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .security__title {
+    max-width: 290px;
+    margin: 0 auto 32px;
+    font-size: 24px;
+  }
+
+  .security__list {
+    gap: 14px;
+  }
+
+  .security__item {
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .security__check {
+    width: 16px;
+    height: 12px;
+    margin-top: 4px;
+  }
+
+
+  /* Products */
+
+  .products {
+    padding: 64px 0;
+  }
+
+  .products__header {
+    margin-bottom: 24px;
+  }
+
+  .products__eyebrow {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .products__title {
+    max-width: 290px;
+    font-size: 26px;
+  }
+
+  .products__cards {
+    gap: 12px;
+  }
+
+  .product-card {
+    min-height: auto;
+    padding: 18px 16px;
+  }
+
+  .product-card__icon {
+    width: 28px;
+    height: 28px;
+    margin-bottom: 8px;
+  }
+
+  .product-card__title {
+    margin-bottom: 4px;
+    font-size: 17px;
+  }
+
+  .product-card__text {
+    max-width: 250px;
+    font-size: 13px;
+  }
+
+
+  /* Drops */
+
+  .drops {
+    padding: 64px 0 80px;
+  }
+
+  .drops__content {
+    margin-bottom: 48px;
+  }
+
+  .drops__badge {
+    margin-bottom: 16px;
+    font-size: 10px;
+  }
+
+  .drops__title {
+    margin-bottom: 16px;
+    font-size: 26px;
+  }
+
+  .drops__text {
+    max-width: 290px;
+    margin-bottom: 18px;
+    font-size: 14px;
+  }
+
+  .drops__form {
+    max-width: 100%;
+  }
+
+  .drops__input {
+    padding: 9px;
+    font-size: 14px;
+  }
+
+  .drops__cards {
+    gap: 40px;
+  }
+
+  .drop-card {
+    max-width: 280px;
+  }
+
+  .drop-card__image {
+    height: 360px;
+  }
+
+  .drop-card__title {
+    font-size: 34px;
+  }
+
+  .drop-card__title::before {
+    inset: 22px 14px;
+  }
+
+  .drop-card__description {
+    margin-top: 20px;
+    font-size: 11px;
+  }
+
+
+  /* Footer */
+
+  .footer {
+    padding: 32px 0;
+  }
+
+  .footer__container {
+    gap: 32px;
+  }
+
+  .footer__top,
+  .footer__bottom {
+    gap: 28px;
+  }
+
+  .footer__title {
+    margin-bottom: 14px;
+    font-size: 17px;
+  }
+
+  .footer__form {
+    max-width: 100%;
+  }
+
+  .footer__input {
+    padding: 8px 12px;
+    font-size: 11px;
+  }
+
+  .footer__button {
+    padding: 8px 14px;
+    font-size: 11px;
+  }
+
+  .footer__logo img {
+    width: 56px;
+  }
+
+  .footer__socials,
+  .footer__links {
+    gap: 12px;
+  }
+
+  .footer__social,
+  .footer__link,
+  .footer__copyright {
+    font-size: 11px;
+  }
+
+  .footer__social-icon {
+    width: 16px;
+    height: 16px;
+  }
+}
