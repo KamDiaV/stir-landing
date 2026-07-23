@@ -1,13 +1,33 @@
 # Stir Landing
 
-Static start template for the Stir landing page.
+Responsive landing page built from a Figma design.
 
-## Structure
-- `css/` — component and global styles.
-- `images/` — place assets here.
-- `js/` — page scripts.
-- `index.html` — entry point.
+## Technologies
 
-## Getting started
-1. Preview with `live-server` or any static server from the project root.
-2. Modify `css/style.css` and `js/main.js` as needed.
+* HTML5
+* CSS3
+* Flexbox
+* CSS Grid
+* BEM Methodology
+
+## Features
+
+* Responsive design for desktop, tablet, and mobile devices
+* Semantic HTML markup
+* Complex multi-section landing page
+* Modern CSS architecture
+* Section-based CSS organization
+* Hover animations and interactive elements
+* Optimized project structure
+
+## Project Preview
+
+![Stir Preview](./images/preview.jpg)
+
+## Live Demo
+
+https://stir-landing.vercel.app/
+
+## Repository
+
+https://github.com/KamDiaV/stir-landing
