@@ -1,0 +1,88 @@
+.mission {
+  padding: 199px 0 247px;
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+.mission__container {
+  text-align: center;
+}
+
+.mission__eyebrow {
+  margin-bottom: 15px;
+  color: #FF573D;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.mission__title {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.3;
+}
+
+@media (max-width: 1024px) {
+  .mission {
+    padding: 160px 0 200px;
+  }
+
+  .mission__eyebrow {
+    margin-bottom: 12px;
+    font-size: 18px;
+  }
+
+  .mission__title {
+    max-width: 720px;
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mission {
+    padding: 120px 0 140px;
+  }
+
+  .mission__eyebrow {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .mission__title {
+    max-width: 560px;
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mission {
+    padding: 80px 0 96px;
+  }
+
+  .mission__eyebrow {
+    margin-bottom: 8px;
+    font-size: 15px;
+  }
+
+  .mission__title {
+    max-width: 360px;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 320px) {
+  .mission {
+    padding: 64px 0 80px;
+  }
+
+  .mission__eyebrow {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .mission__title {
+    max-width: 290px;
+    font-size: 24px;
+  }
+}

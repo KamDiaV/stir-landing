@@ -1,0 +1,24 @@
+/* Base */
+@import url("./base/reset.css");
+@import url("./base/variables.css");
+@import url("./base/global.css");
+
+/* Layout */
+@import url("./layout/header.css");
+@import url("./layout/footer.css");
+
+/* Sections */
+@import url("./sections/hero.css");
+@import url("./sections/community.css");
+@import url("./sections/mission.css");
+@import url("./sections/organization.css");
+@import url("./sections/payments.css");
+@import url("./sections/splits.css");
+@import url("./sections/collectives.css");
+@import url("./sections/stories.css");
+@import url("./sections/security.css");
+@import url("./sections/products.css");
+@import url("./sections/drops.css");
+
+/* Components */
+@import url("./components/forms.css");

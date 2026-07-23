@@ -1,0 +1,21 @@
+.hero__input:-webkit-autofill,
+.hero__input:-webkit-autofill:hover,
+.hero__input:-webkit-autofill:focus,
+.footer__input:-webkit-autofill,
+.footer__input:-webkit-autofill:hover,
+.footer__input:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--color-black);
+  -webkit-box-shadow: 0 0 0px 1000px var(--color-white) inset;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+.drops__input:-webkit-autofill,
+.drops__input:-webkit-autofill:hover,
+.drops__input:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--color-white);
+  -webkit-box-shadow: 0 0 0 1000px var(--color-black) inset;
+  -webkit-background-clip: text;
+  border-radius: inherit;
+
+  transition: background-color 9999s ease-in-out 0s;
+}

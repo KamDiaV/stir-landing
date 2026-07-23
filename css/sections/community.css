@@ -1,0 +1,297 @@
+.community {
+  padding: 236px 0 160px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  overflow-x: clip;
+}
+
+.community__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.community__title {
+  max-width: 550px;
+  margin-bottom: 102px;
+  font-size: 40px;
+  font-weight: var(--font-weight-regular);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.community__cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  margin-bottom: 92px;
+}
+
+.community-card {
+  flex-shrink: 0;
+}
+
+.community-card--small {
+  width: 683px;
+}
+
+.community-card--large {
+  position: relative;
+  width: 752px;
+}
+
+.community__slide {
+  position: absolute;
+  left: 33px;
+  bottom: 7px;
+  font-size: 10px;
+  line-height: 1.4;
+  color: var(--color-white);
+}
+
+.community-card__image {
+  width: 100%;
+  height: auto;
+}
+
+.community__controls {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 100px;
+}
+
+.community__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border: 2px solid var(--color-white);
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  transition:
+    background-color var(--transition),
+    opacity var(--transition);
+}
+
+.community__button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.community__featured {
+  text-align: center;
+}
+
+.community__label {
+  margin-bottom: 40px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: var(--font-weight-regular);
+  text-transform: uppercase;
+  letter-spacing: 0.56px;
+}
+
+.community__logos {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+@media (max-width: 1024px) {
+  .community {
+    padding: 180px 0 120px;
+  }
+
+  .community__title {
+    max-width: 500px;
+    margin-bottom: 72px;
+    font-size: 36px;
+  }
+
+  .community__cards {
+    gap: 40px;
+    margin-bottom: 72px;
+  }
+
+  .community__controls {
+    margin-bottom: 80px;
+  }
+
+  .community__logos {
+    gap: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .community {
+    padding: 140px 0 100px;
+  }
+
+  .community__title {
+    max-width: 460px;
+    margin-bottom: 56px;
+    font-size: 32px;
+  }
+
+  .community__cards {
+    gap: 24px;
+    margin-bottom: 56px;
+  }
+
+  .community-card--small {
+    width: 440px;
+  }
+
+  .community-card--large {
+    width: 500px;
+  }
+
+  .community__slide {
+    left: 24px;
+    bottom: 6px;
+  }
+
+  .community__controls {
+    gap: 24px;
+    margin-bottom: 64px;
+  }
+
+  .community__button {
+    width: 44px;
+    height: 44px;
+  }
+
+  .community__label {
+    margin-bottom: 32px;
+    font-size: 13px;
+  }
+
+  .community__logos {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .community {
+    padding: 96px 0 80px;
+  }
+
+  .community__title {
+    max-width: 360px;
+    margin-bottom: 40px;
+    font-size: 28px;
+  }
+
+  .community__cards {
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+
+  .community-card--small {
+    width: 300px;
+  }
+
+  .community-card--large {
+    width: 340px;
+  }
+
+  .community__slide {
+    left: 18px;
+    bottom: 4px;
+    font-size: 9px;
+  }
+
+  .community__controls {
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+
+  .community__button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .community__button img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .community__label {
+    margin-bottom: 24px;
+    font-size: 12px;
+  }
+
+  .community__logos {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .community__logos img {
+    height: 18px;
+    width: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .community {
+    padding: 72px 0 64px;
+  }
+
+  .community__title {
+    max-width: 280px;
+    margin-bottom: 32px;
+    font-size: 24px;
+  }
+
+  .community__cards {
+    gap: 0;
+    margin-bottom: 32px;
+  }
+
+  .community-card--small {
+    display: none;
+  }
+
+  .community-card--large {
+    width: 280px;
+  }
+
+  .community__slide {
+    left: 14px;
+    bottom: 3px;
+    font-size: 8px;
+  }
+
+  .community__controls {
+    gap: 12px;
+    margin-bottom: 40px;
+  }
+
+  .community__button {
+    width: 36px;
+    height: 36px;
+  }
+
+  .community__button img {
+    width: 14px;
+    height: 14px;
+  }
+
+  .community__label {
+    margin-bottom: 20px;
+    font-size: 11px;
+  }
+
+  .community__logos {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .community__logos img {
+    height: 17px;
+    width: auto;
+  }
+}
